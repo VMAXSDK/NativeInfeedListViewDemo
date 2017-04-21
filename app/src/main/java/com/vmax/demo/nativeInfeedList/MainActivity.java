@@ -91,12 +91,13 @@ public class MainActivity extends AppCompatActivity {
  * would be one of the parameters in the post request eg. advid=2cf626f0-08ac-4a4d-933c-00ecd0256cf4*/
 
 /** DON'T INCLUDE vmaxAdView.setTestDevices() WHILE GOING LIVE WITH YOUR PROJECT AS THIS SERVES ONLY TEST ADS;*/
-        vmaxAdView.setTestDevices(VmaxAdView.TEST_via_ADVID,"REPLACE WITH YOUR ADVID");
+        vmaxAdView.setTestDevices(VmaxAdView.TEST_via_ADVID,"<REPLACE WITH YOUR ADVID>");
 
         vmaxAdView.setAdListener(new VmaxAdListener() {
             @Override
             public void onAdError(VmaxAdError error) {
-
+                InitializeListView();
+                Toast.makeText(getApplicationContext(),"Failed To Load Ad Please Try Again Later",Toast.LENGTH_LONG).show();
             }
 
             @Override

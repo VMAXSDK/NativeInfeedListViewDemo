@@ -45,10 +45,11 @@ public class listviewadapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         View vw;
         TextView textView;
-        if (i==4)
+        if (i==4&&theAd!=null)
         {
 /** Ad Will be displayed on the fourth position in your list*/
             vw=theAd;
+
         }
         else {
             LayoutInflater layoutInflater = (LayoutInflater) theContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
