@@ -12,6 +12,8 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+
+
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -25,7 +27,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
-    compile 'com.android.support:recyclerview-v7:+'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
 /*Adding VMAX Base SDK To Project*/
     compile(name:'vmax', ext:'aar')
 /* Adding Mediation Partner Facebook*/

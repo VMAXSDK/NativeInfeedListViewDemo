@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.vmax.android.ads.api.VmaxAdView;
+
 import java.util.ArrayList;
 
 /**
@@ -18,9 +20,9 @@ import java.util.ArrayList;
 public class listviewadapter extends BaseAdapter {
     ArrayList<BlogModel> list=new ArrayList<>();
     Context theContext;
-    RelativeLayout theAd;
+    VmaxAdView theAd;
 
-    public listviewadapter(Context c,ArrayList<BlogModel>list,RelativeLayout adContainer)
+    public listviewadapter(Context c,ArrayList<BlogModel>list,VmaxAdView adContainer)
     {
         this.theContext=c;
         this.list=list;
