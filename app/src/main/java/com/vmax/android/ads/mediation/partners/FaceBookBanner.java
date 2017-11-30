@@ -207,6 +207,11 @@ public class FaceBookBanner extends VmaxCustomAd implements AdListener {
         mBannerListener.onAdClicked();
     }
 
+    @Override
+    public void onLoggingImpression(Ad ad) {
+
+    }
+
     private boolean extrasAreValid(final Map<String, Object> serverExtras) {
         final String placementId = serverExtras.get(PLACEMENT_ID_KEY)
                 .toString();

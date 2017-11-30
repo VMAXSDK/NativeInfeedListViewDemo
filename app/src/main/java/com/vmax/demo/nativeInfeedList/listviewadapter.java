@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.mds.news.udayavani.R;
 import com.vmax.android.ads.api.VmaxAdView;
 
 import java.util.ArrayList;

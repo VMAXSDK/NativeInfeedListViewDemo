@@ -2,21 +2,12 @@ package com.vmax.demo.nativeInfeedList;
 
 
 import android.content.Context;
-import android.content.Intent;
-import android.content.res.Configuration;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
-
+import com.mds.news.udayavani.R;
 import com.vmax.android.ads.api.VmaxAdView;
 
 

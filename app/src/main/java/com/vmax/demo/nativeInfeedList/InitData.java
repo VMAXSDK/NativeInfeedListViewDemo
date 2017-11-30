@@ -2,6 +2,8 @@ package com.vmax.demo.nativeInfeedList;
 
 import android.content.Context;
 
+import com.mds.news.udayavani.R;
+
 import java.util.ArrayList;
 
 /**

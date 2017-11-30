@@ -7,7 +7,7 @@
     vmax:compositeViewWidthInDp="320"
     vmax:compositeViewHeightInDp="250"
     android:layout_gravity="center"
-    vmax:adspotKey="9060b6e3"
+    vmax:adspotKey="a5d2817c"
     vmax:uxType="@integer/vmax_ux_native"
     android:id="@+id/adView"
     android:paddingBottom="10dp"
